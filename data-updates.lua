@@ -6,6 +6,7 @@ if mods["space-exploration"] then
         -- Barrels
         {"empty-barrel", 10},
         {"ammonia-barrel", 10},
+        {"cb_alien_cold_extract-barrel", 10},
         {"cooling-geothermal-water-barrel", 10},
         {"geothermal-water-barrel", 10},
         {"hydrogen-barrel", 10},
@@ -25,10 +26,17 @@ if mods["space-exploration"] then
         {"se-space-water-barrel", 10},
         {"se-vitalic-acid-barrel", 10},
 
+        -- Fuel
+        {"nuclear-fuel", 10},
+        {"uranium-fuel-cell", 1},
+        {"used-up-uranium-fuel-cell", 1},
+
         -- Resources
         {"advanced-circuit", 200},
         {"automation-core", 200},
         {"copper-cable", 200},
+        {"copper-pipe", 100},
+        {"copper-pipe-to-ground", 100},
         {"electric-engine-unit", 50},
         {"electric-motor", 50},
         {"electronic-circuit", 200},
@@ -38,15 +46,26 @@ if mods["space-exploration"] then
         {"iron-beam", 200},
         {"iron-gear-wheel", 200},
         {"iron-stick", 200},
+        {"kr-steel-pipe", 100},
+        {"kr-steel-pipe-to-ground", 100},
         {"motor", 50},
+        {"pipe", 100},
+        {"pipe-to-ground", 100},
         {"pollution-filter", 20},
         {"processing-unit", 200},
         {"rail", 10},
+        {"refined-concrete", 200},
+        {"se-space-pipe", 100},
+        {"se-space-pipe-to-ground", 100},
+        {"se-steel-pipe", 100},
+        {"se-steel-pipe-to-ground", 100},
         {"small-electric-pole", 50},
         {"steel-beam", 200},
         {"steel-gear-wheel", 200},
         {"steel-pipe", 100},
         {"steel-pipe-to-ground", 100},
+        {"stone-pipe", 100},
+        {"stone-pipe-to-ground", 100},
         {"used-improved-pollution-filter", 5},
         {"used-pollution-filter", 10},
 
@@ -71,7 +90,15 @@ if mods["space-exploration"] then
         {"se-cargo-rocket-cargo-pod", 25},
         {"se-cargo-rocket-fuel-tank", 25},
         {"se-cargo-rocket-section-packed", 25},
-        {"space-capsule", 1}
+
+        -- Science Packs
+        {"biters-research-data", 200},
+        {"blank-tech-card", 200},
+        {"kr-optimization-tech-card", 200},
+        {"se-machine-learning-data", 200},
+
+        -- Weaponry
+        {"se-delivery-cannon-weapon-capsule", 25}
     }
 
     -- Check if the item/recipe exists. If so, add it to se_delivery_cannon_recipes
