@@ -1,12 +1,12 @@
 {
-  "name": "SE-FireEverything",
-  "version": "1.0.2",
+  "name": "SE-FireEverything-2.0",
+  "version": "1.0",
   "title": "SE Delivery Cannon - Fire Everything!",
-  "author": "kronflux",
-  "factorio_version": "1.1",
+  "author": "A2noh",
+  "factorio_version": "2.0",
   "description": "Additional recipes for the Space Exploration Delivery Cannon, allowing you to FIRE EVERYTHING!!!",
   "dependencies": [
-    "base",
+    "base >= 2.0",
     "space-exploration",
     "(?) boblogistics",
     "(?) Cold_biters",
